@@ -38,6 +38,11 @@ class Landing extends Component {
                 <i className="fa fa-envelope"  aria-hidden="true"/>             
               </a>
 
+               {/*My Resume*/}
+               <a href="https://drive.google.com/file/d/1xkOVWKW0GNWCAWJOecSkEKIozlJjVeCn/view?usp=sharing" rel="noopener noreferrer" target="_blank">
+               <i className="fa fa-file-text"  aria-hidden="true"/>             
+             </a>
+             
               {/*Phone Number*/}
               <a href="tel:+1-862-448-4900" rel="noopener noreferrer" target="_blank">
                 <i className="fa fa-mobile"  aria-hidden="true"/>             
