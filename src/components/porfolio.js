@@ -11,9 +11,10 @@ class Porfolio extends Component {
         if(this.state.activeTab === 0) {
             return(
                 <div ClassName="porfolio-grid">
+
                 {/*Project 1*/}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url() center / cover'}}>What am I eating?</CardTitle>
+                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url(https://user-images.githubusercontent.com/65003712/88004517-28d34280-cad5-11ea-8031-5ec6cb0e2977.png) center / cover'}}>What am I eating?</CardTitle>
                     <CardText>
                     Utilizing this web application will provide users a randomized meal and cocktail after using androp down selection menu to find a meal closer to their preference.
                     </CardText>
@@ -29,7 +30,7 @@ class Porfolio extends Component {
 
                 {/*Project 2*/}
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url() center / cover'}}>Binvoice</CardTitle>
+                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url(https://user-images.githubusercontent.com/61078512/93558396-5a3c8300-f94b-11ea-9b93-ee7a8594b38d.png) center / cover'}}>Binvoice</CardTitle>
                     <CardText>
                    As a contractor I would like an affordable app to help me generate invoices for my customers.
                     </CardText>
@@ -48,7 +49,7 @@ class Porfolio extends Component {
             return(
                 <div ClassName="porfolio-grid">
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url() center / cover'}}>Weather Dashboard</CardTitle>
+                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url(https://user-images.githubusercontent.com/61078512/87215033-557ea180-c300-11ea-9bc6-6516b1820f84.png) center / cover'}}>Weather Dashboard</CardTitle>
                     <CardActions border>
                         <Button colored>Link</Button>
                         <Button colored>Github</Button>
@@ -58,7 +59,7 @@ class Porfolio extends Component {
                     </CardMenu>
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url() center / cover'}}>Day Planner</CardTitle>
+                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url(https://user-images.githubusercontent.com/61078512/86534906-55b71100-beaa-11ea-85af-4596b67a0696.png) center / cover'}}>Day Planner</CardTitle>
                     <CardActions border>
                         <Button colored>Link</Button>
                         <Button colored>Github</Button>
@@ -68,7 +69,7 @@ class Porfolio extends Component {
                     </CardMenu>
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url() center / cover'}}>Code Quiz</CardTitle>
+                <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url(https://user-images.githubusercontent.com/61078512/85745992-20553b00-b6d4-11ea-92c2-d30247f56336.png) center / cover'}}>Code Quiz</CardTitle>
                 <CardActions border>
                     <Button colored>Link</Button>
                     <Button colored>Github</Button>
@@ -78,7 +79,7 @@ class Porfolio extends Component {
                 </CardMenu>
             </Card>
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url() center / cover'}}>Password Generator</CardTitle>
+            <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url(https://github.com/Mssanoko/Updated-Porfolio/blob/master/Assets/Images/Password-Generator.png?raw=true) center / cover'}}>Password Generator</CardTitle>
             <CardActions border>
                 <Button colored>Link</Button>
                 <Button colored>Github</Button>
@@ -88,7 +89,7 @@ class Porfolio extends Component {
             </CardMenu>
         </Card>
         <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url() center / cover'}}>Good ReadMe Generator</CardTitle>
+                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url(https://github.com/Mssanoko/Updated-Porfolio/blob/master/Assets/Images/Good-ReadMe-Generator.png?raw=true) center / cover'}}>Good ReadMe Generator</CardTitle>
                     <CardActions border>
                         <Button colored>Link</Button>
                         <Button colored>Github</Button>
@@ -98,7 +99,7 @@ class Porfolio extends Component {
                     </CardMenu>
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url() center / cover'}}>Team Profile Generator</CardTitle>
+                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url(https://user-images.githubusercontent.com/61078512/89740128-3173c480-da54-11ea-863d-35bb5c0115c5.png) center / cover'}}>Team Profile Generator</CardTitle>
                     <CardActions border>
                         <Button colored>Link</Button>
                         <Button colored>Github</Button>
@@ -108,7 +109,7 @@ class Porfolio extends Component {
                     </CardMenu>
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url() center / cover'}}>Note Taker</CardTitle>
+                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url(https://user-images.githubusercontent.com/61078512/90325931-eb38cc80-df4f-11ea-88ad-7449afbff721.png) center / cover'}}>Note Taker</CardTitle>
                     <CardActions border>
                         <Button colored>Link</Button>
                         <Button colored>Github</Button>
@@ -118,7 +119,7 @@ class Porfolio extends Component {
                     </CardMenu>
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url() center / cover'}}>Employer Tracker</CardTitle>
+                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url(https://user-images.githubusercontent.com/61078512/90971699-8a296f80-e4e0-11ea-946b-664a34841a39.gif) center / cover'}}>Employer Tracker</CardTitle>
                     <CardActions border>
                         <Button colored>Link</Button>
                         <Button colored>Github</Button>
@@ -128,7 +129,7 @@ class Porfolio extends Component {
                     </CardMenu>
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url() center / cover'}}>Burger App</CardTitle>
+                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url(https://user-images.githubusercontent.com/61078512/91626352-68b30280-e97c-11ea-815e-cf5b5dfb63fe.png) center / cover'}}>Burger App</CardTitle>
                     <CardActions border>
                         <Button colored>Link</Button>
                         <Button colored>Github</Button>
@@ -138,7 +139,7 @@ class Porfolio extends Component {
                     </CardMenu>
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url() center / cover'}}>Fitness Tracker</CardTitle>
+                <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url(https://user-images.githubusercontent.com/61078512/94942720-abe52180-04a4-11eb-9b90-b3916c024989.png) center / cover'}}>Fitness Tracker</CardTitle>
                 <CardActions border>
                     <Button colored>Link</Button>
                     <Button colored>Github</Button>
@@ -148,7 +149,7 @@ class Porfolio extends Component {
                 </CardMenu>
             </Card>
             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url() center / cover'}}>Progressive Budget</CardTitle>
+                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url(https://user-images.githubusercontent.com/61078512/95669781-3f2bf000-0b52-11eb-981b-2fe1faebb605.png) center / cover'}}>Progressive Budget</CardTitle>
                     <CardActions border>
                         <Button colored>Link</Button>
                         <Button colored>Github</Button>
@@ -158,7 +159,7 @@ class Porfolio extends Component {
                     </CardMenu>
                 </Card>
                 <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url() center / cover'}}>User Directory</CardTitle>
+                    <CardTitle style={{color: "#d8bfd8", height: '176px', background: 'url(https://user-images.githubusercontent.com/61078512/96355004-23bd6980-10ab-11eb-84c8-daf1d8ca0076.png) center / cover'}}>User Directory</CardTitle>
                     <CardActions border>
                         <Button colored>Link</Button>
                         <Button colored>Github</Button>
