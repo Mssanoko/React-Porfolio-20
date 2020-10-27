@@ -6,7 +6,7 @@ import Porfolio from './porfolio';
 
 const Main = () => (
     <Switch>
-        <Route exact path ="/" component={LandingPage} />
+        <Route exact path ="/about" component={LandingPage} />
         <Route path ="/about" component={LandingPage} />
         <Route path ="/porfolio" component={Porfolio} />
         <Route path ="/contact" component={Contact} />
